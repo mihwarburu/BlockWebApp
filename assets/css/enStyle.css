@@ -1,0 +1,46 @@
+body {
+    text-align: left;
+    direction: ltr;
+}
+
+.banner img.bannerBg {
+    left: unset;
+    right: 0;
+}
+
+.howItWorkIcon span {
+    left: 0;
+    right: unset;
+}
+
+a.FixedWhatsapp {
+    left: unset;
+    right: 20px;
+}
+
+.opennav {
+    left: 0;
+    right: unset;
+}
+
+.overlayNav {
+    left: unset;
+    right: -100%;
+}
+
+.showOverlay {
+    left: unset;
+    right: 0;
+}
+
+@media(max-width:768px) {
+    header nav ul {
+        right: unset;
+        left: -250px;
+    }
+
+    a.FixedWhatsapp {
+        left: unset;
+        right: 10px;
+    }
+}
