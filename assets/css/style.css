@@ -126,7 +126,7 @@ header nav ul a {
 }
 .small-logo {
     width: 120px;
-    height: 120px;
+    height: auto;
 }
 
 header nav .navUl ul:first-of-type a:hover,
